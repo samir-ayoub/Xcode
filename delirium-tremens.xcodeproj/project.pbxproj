@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378FAFBB20825EA80087254A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FAFBA20825EA80087254A /* AppDelegate.swift */; };
+		378FAFBD20825EA80087254A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FAFBC20825EA80087254A /* ViewController.swift */; };
+		378FAFC020825EA80087254A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378FAFBE20825EA80087254A /* Main.storyboard */; };
+		378FAFC220825EA80087254A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378FAFC120825EA80087254A /* Assets.xcassets */; };
+		378FAFC520825EA80087254A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378FAFC320825EA80087254A /* LaunchScreen.storyboard */; };
+		378FAFD020825EA90087254A /* delirium_tremensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FAFCF20825EA90087254A /* delirium_tremensTests.swift */; };
+		378FAFDB20825EA90087254A /* delirium_tremensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FAFDA20825EA90087254A /* delirium_tremensUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378FAFCC20825EA80087254A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378FAFAF20825EA80087254A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378FAFB620825EA80087254A;
+			remoteInfo = "delirium-tremens";
+		};
+		378FAFD720825EA90087254A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378FAFAF20825EA80087254A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378FAFB620825EA80087254A;
+			remoteInfo = "delirium-tremens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		378FAFB720825EA80087254A /* delirium-tremens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "delirium-tremens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		378FAFBA20825EA80087254A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378FAFBC20825EA80087254A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		378FAFBF20825EA80087254A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378FAFC120825EA80087254A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378FAFC420825EA80087254A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378FAFC620825EA80087254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378FAFCB20825EA80087254A /* delirium-tremensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "delirium-tremensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		378FAFCF20825EA90087254A /* delirium_tremensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delirium_tremensTests.swift; sourceTree = "<group>"; };
+		378FAFD120825EA90087254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378FAFD620825EA90087254A /* delirium-tremensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "delirium-tremensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		378FAFDA20825EA90087254A /* delirium_tremensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delirium_tremensUITests.swift; sourceTree = "<group>"; };
+		378FAFDC20825EA90087254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378FAFB420825EA80087254A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FAFC820825EA80087254A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FAFD320825EA90087254A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378FAFAE20825EA80087254A = {
+			isa = PBXGroup;
+			children = (
+				378FAFB920825EA80087254A /* delirium-tremens */,
+				378FAFCE20825EA90087254A /* delirium-tremensTests */,
+				378FAFD920825EA90087254A /* delirium-tremensUITests */,
+				378FAFB820825EA80087254A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378FAFB820825EA80087254A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378FAFB720825EA80087254A /* delirium-tremens.app */,
+				378FAFCB20825EA80087254A /* delirium-tremensTests.xctest */,
+				378FAFD620825EA90087254A /* delirium-tremensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378FAFB920825EA80087254A /* delirium-tremens */ = {
+			isa = PBXGroup;
+			children = (
+				378FAFBA20825EA80087254A /* AppDelegate.swift */,
+				378FAFBC20825EA80087254A /* ViewController.swift */,
+				378FAFBE20825EA80087254A /* Main.storyboard */,
+				378FAFC120825EA80087254A /* Assets.xcassets */,
+				378FAFC320825EA80087254A /* LaunchScreen.storyboard */,
+				378FAFC620825EA80087254A /* Info.plist */,
+			);
+			path = "delirium-tremens";
+			sourceTree = "<group>";
+		};
+		378FAFCE20825EA90087254A /* delirium-tremensTests */ = {
+			isa = PBXGroup;
+			children = (
+				378FAFCF20825EA90087254A /* delirium_tremensTests.swift */,
+				378FAFD120825EA90087254A /* Info.plist */,
+			);
+			path = "delirium-tremensTests";
+			sourceTree = "<group>";
+		};
+		378FAFD920825EA90087254A /* delirium-tremensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				378FAFDA20825EA90087254A /* delirium_tremensUITests.swift */,
+				378FAFDC20825EA90087254A /* Info.plist */,
+			);
+			path = "delirium-tremensUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378FAFB620825EA80087254A /* delirium-tremens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378FAFDF20825EA90087254A /* Build configuration list for PBXNativeTarget "delirium-tremens" */;
+			buildPhases = (
+				378FAFB320825EA80087254A /* Sources */,
+				378FAFB420825EA80087254A /* Frameworks */,
+				378FAFB520825EA80087254A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "delirium-tremens";
+			productName = "delirium-tremens";
+			productReference = 378FAFB720825EA80087254A /* delirium-tremens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378FAFCA20825EA80087254A /* delirium-tremensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378FAFE220825EA90087254A /* Build configuration list for PBXNativeTarget "delirium-tremensTests" */;
+			buildPhases = (
+				378FAFC720825EA80087254A /* Sources */,
+				378FAFC820825EA80087254A /* Frameworks */,
+				378FAFC920825EA80087254A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378FAFCD20825EA80087254A /* PBXTargetDependency */,
+			);
+			name = "delirium-tremensTests";
+			productName = "delirium-tremensTests";
+			productReference = 378FAFCB20825EA80087254A /* delirium-tremensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		378FAFD520825EA90087254A /* delirium-tremensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378FAFE520825EA90087254A /* Build configuration list for PBXNativeTarget "delirium-tremensUITests" */;
+			buildPhases = (
+				378FAFD220825EA90087254A /* Sources */,
+				378FAFD320825EA90087254A /* Frameworks */,
+				378FAFD420825EA90087254A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378FAFD820825EA90087254A /* PBXTargetDependency */,
+			);
+			name = "delirium-tremensUITests";
+			productName = "delirium-tremensUITests";
+			productReference = 378FAFD620825EA90087254A /* delirium-tremensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378FAFAF20825EA80087254A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Samir;
+				TargetAttributes = {
+					378FAFB620825EA80087254A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					378FAFCA20825EA80087254A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 378FAFB620825EA80087254A;
+					};
+					378FAFD520825EA90087254A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 378FAFB620825EA80087254A;
+					};
+				};
+			};
+			buildConfigurationList = 378FAFB220825EA80087254A /* Build configuration list for PBXProject "delirium-tremens" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378FAFAE20825EA80087254A;
+			productRefGroup = 378FAFB820825EA80087254A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378FAFB620825EA80087254A /* delirium-tremens */,
+				378FAFCA20825EA80087254A /* delirium-tremensTests */,
+				378FAFD520825EA90087254A /* delirium-tremensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378FAFB520825EA80087254A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FAFC520825EA80087254A /* LaunchScreen.storyboard in Resources */,
+				378FAFC220825EA80087254A /* Assets.xcassets in Resources */,
+				378FAFC020825EA80087254A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FAFC920825EA80087254A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FAFD420825EA90087254A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378FAFB320825EA80087254A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FAFBD20825EA80087254A /* ViewController.swift in Sources */,
+				378FAFBB20825EA80087254A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FAFC720825EA80087254A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FAFD020825EA90087254A /* delirium_tremensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FAFD220825EA90087254A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FAFDB20825EA90087254A /* delirium_tremensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378FAFCD20825EA80087254A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378FAFB620825EA80087254A /* delirium-tremens */;
+			targetProxy = 378FAFCC20825EA80087254A /* PBXContainerItemProxy */;
+		};
+		378FAFD820825EA90087254A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378FAFB620825EA80087254A /* delirium-tremens */;
+			targetProxy = 378FAFD720825EA90087254A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378FAFBE20825EA80087254A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378FAFBF20825EA80087254A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378FAFC320825EA80087254A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378FAFC420825EA80087254A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378FAFDD20825EA90087254A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		378FAFDE20825EA90087254A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378FAFE020825EA90087254A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "delirium-tremens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.delirium.delirium-tremens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378FAFE120825EA90087254A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "delirium-tremens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.delirium.delirium-tremens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		378FAFE320825EA90087254A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "delirium-tremensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.delirium.delirium-tremensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delirium-tremens.app/delirium-tremens";
+			};
+			name = Debug;
+		};
+		378FAFE420825EA90087254A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "delirium-tremensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.delirium.delirium-tremensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delirium-tremens.app/delirium-tremens";
+			};
+			name = Release;
+		};
+		378FAFE620825EA90087254A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "delirium-tremensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.delirium.delirium-tremensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "delirium-tremens";
+			};
+			name = Debug;
+		};
+		378FAFE720825EA90087254A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "delirium-tremensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.delirium.delirium-tremensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "delirium-tremens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378FAFB220825EA80087254A /* Build configuration list for PBXProject "delirium-tremens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FAFDD20825EA90087254A /* Debug */,
+				378FAFDE20825EA90087254A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378FAFDF20825EA90087254A /* Build configuration list for PBXNativeTarget "delirium-tremens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FAFE020825EA90087254A /* Debug */,
+				378FAFE120825EA90087254A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378FAFE220825EA90087254A /* Build configuration list for PBXNativeTarget "delirium-tremensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FAFE320825EA90087254A /* Debug */,
+				378FAFE420825EA90087254A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378FAFE520825EA90087254A /* Build configuration list for PBXNativeTarget "delirium-tremensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FAFE620825EA90087254A /* Debug */,
+				378FAFE720825EA90087254A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378FAFAF20825EA80087254A /* Project object */;
+}
