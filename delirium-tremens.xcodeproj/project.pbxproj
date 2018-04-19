@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		3722833F2083932700E3CD63 /* drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3722833E2083932700E3CD63 /* drink.swift */; };
 		372283412083949900E3CD63 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372283402083949900E3CD63 /* item.swift */; };
-		372283432083962F00E3CD63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372283422083962F00E3CD63 /* ViewController.swift */; };
 		372283452083973F00E3CD63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372283442083973D00E3CD63 /* Main.storyboard */; };
 		378FAFBB20825EA80087254A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FAFBA20825EA80087254A /* AppDelegate.swift */; };
 		378FAFC220825EA80087254A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378FAFC120825EA80087254A /* Assets.xcassets */; };
 		378FAFC520825EA80087254A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378FAFC320825EA80087254A /* LaunchScreen.storyboard */; };
 		378FAFD020825EA90087254A /* delirium_tremensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FAFCF20825EA90087254A /* delirium_tremensTests.swift */; };
 		378FAFDB20825EA90087254A /* delirium_tremensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378FAFDA20825EA90087254A /* delirium_tremensUITests.swift */; };
+		41A17BF620894C5800C9F4C1 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A17BF520894C5800C9F4C1 /* DrinksTableViewController.swift */; };
+		41A17BF820894D3100C9F4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A17BF720894D3100C9F4C1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		3722833E2083932700E3CD63 /* drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink.swift; sourceTree = "<group>"; };
 		372283402083949900E3CD63 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
-		372283422083962F00E3CD63 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = viewcontrollers/ViewController.swift; sourceTree = "<group>"; };
 		372283442083973D00E3CD63 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		375963E920827DDE00F1E371 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		378FAFB720825EA80087254A /* delirium-tremens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "delirium-tremens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +52,8 @@
 		378FAFD620825EA90087254A /* delirium-tremensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "delirium-tremensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		378FAFDA20825EA90087254A /* delirium_tremensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delirium_tremensUITests.swift; sourceTree = "<group>"; };
 		378FAFDC20825EA90087254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A17BF520894C5800C9F4C1 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
+		41A17BF720894D3100C9F4C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,8 @@
 		3722833C2083930000E3CD63 /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				41A17BF520894C5800C9F4C1 /* DrinksTableViewController.swift */,
+				41A17BF720894D3100C9F4C1 /* ViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -128,7 +132,6 @@
 			children = (
 				3722833B2083930000E3CD63 /* models */,
 				3722833C2083930000E3CD63 /* viewcontrollers */,
-				372283422083962F00E3CD63 /* ViewController.swift */,
 				3722833D2083930000E3CD63 /* views */,
 				375963E920827DDE00F1E371 /* MyPlayground.playground */,
 				378FAFBA20825EA80087254A /* AppDelegate.swift */,
@@ -291,9 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A17BF820894D3100C9F4C1 /* ViewController.swift in Sources */,
 				372283412083949900E3CD63 /* item.swift in Sources */,
+				41A17BF620894C5800C9F4C1 /* DrinksTableViewController.swift in Sources */,
 				378FAFBB20825EA80087254A /* AppDelegate.swift in Sources */,
-				372283432083962F00E3CD63 /* ViewController.swift in Sources */,
 				3722833F2083932700E3CD63 /* drink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

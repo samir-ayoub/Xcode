@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var nameField : UITextField?
     @IBOutlet var happinessField : UITextField?
     
@@ -24,8 +24,8 @@ class ViewController: UIViewController {
             
             print("Bebi uma cerveja \(drink.name) boa, nota \(drink.happiness)!")
         }
-
+        
     }
-
+    
 }
 
